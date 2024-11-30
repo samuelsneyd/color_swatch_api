@@ -4,7 +4,13 @@ A simple API using the Django REST Framework to generate random color swatches i
 
 ## Quickstart
 
-Start the python virtual environment
+Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+Start the virtual environment
 
 ```bash
 # Mac/Linux
