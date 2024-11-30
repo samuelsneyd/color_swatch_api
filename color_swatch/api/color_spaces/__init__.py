@@ -4,7 +4,11 @@ from .rgb import RGBColorSpace
 from .hsl import HSLColorSpace
 
 # Register new color spaces here by adding to the list below
-COLOR_SPACES: list[ColorSpace] = [RGBColorSpace(), HSLColorSpace()]
+COLOR_SPACES: list[ColorSpace] = [
+    RGBColorSpace(),
+    HSLColorSpace(),
+    # More color spaces go here...
+]
 
 
 def get_random_color_space() -> ColorSpace:
