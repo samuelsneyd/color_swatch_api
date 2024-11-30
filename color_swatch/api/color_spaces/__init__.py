@@ -24,3 +24,8 @@ def get_color_space(color_space_type: str) -> ColorSpace | None:
             return color_space
 
     return None
+
+
+def get_color_spaces() -> list[ColorSpace]:
+    """Returns a list of all registered color spaces."""
+    return COLOR_SPACES
