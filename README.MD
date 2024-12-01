@@ -200,3 +200,32 @@ Query params
 E.g., `GET api/colors/rbg?n=10`, `GET api/colors/hsl?n=10`
 
 
+## Demo UI Quickstart
+
+The demo UI is a small React/Vite single-page application that consumes the color swatches API.
+
+> Note: see instructions above to run the API first
+
+Navigate the UI folder
+
+```bash
+cd demo_ui
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run dev server
+
+```bash
+npm run dev
+```
+
+Build
+
+```bash
+npm run build
+```
